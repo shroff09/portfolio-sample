@@ -1,0 +1,263 @@
+  
+	
+body {
+    background-color: #eeeeee8c;
+    background-image: none;
+    background-position: top left;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    color: #474747;
+}
+@media (max-width:640px){
+    body{
+         
+    }
+}
+.name{
+    color: #1a2849;
+    margin-top: 1%;
+    text-align: center;
+     font-family: 'Allura', cursive;
+      font-size: 28px;
+     text-decoration: none;
+       height:  52px;    
+    width: 250px;
+    margin-left: 40%;
+      
+
+       
+  }
+@media (max-width:640px) {
+    .name{
+     text-align: center;
+        margin-top: 8%;
+    margin-left: 61%;
+
+       
+  }
+}
+ 
+
+/* Style the navbar */
+.d-flex {
+  margin-top: 5%;
+ margin-left: 20%;
+  width:810px; 
+  height:60px;
+  align-content: center;
+  display: flex;  
+  flex: none;
+    
+}
+@media (max-width: 640px) {
+    .d-flex {
+display: flex;
+       flex: none;
+        margin-left: 12%;
+    }
+}
+/* Navbar links */
+.d-flex a {
+  float: left;
+  display: block;
+  color: #3f72af;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 24px;
+  border: 2px;
+    display:  inline-flex;
+    flex: wrap;
+    
+    
+ 
+}
+
+/* Page content */
+.content {
+  padding: 20px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+} 
+footer{
+       position:fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    width: 220px;
+    height: 67px;
+}
+@media  (max-width : 640px) {
+footer{
+     margin-left: 38%;
+    margin-bottom: 2%;
+}
+}
+   
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#black
+}
+.social-icons a.github-square:hover
+{
+  background-color:#212121
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+@font-face {
+  font-family: "myFont";
+  src: url("myFont.woff");
+}
+ 
+.photo{width: 150px;
+
+height: 150px;
+
+margin-left: 18%;
+
+margin-top:6%;
+    
+	 
+}
+#para{
+  float: right;
+}
+.para{
+   width: 44%;
+height: 344px;
+float: left;
+font-size: 24px;
+margin-left: 37%;
+margin-top: -14%;
+    display: flex;
+    justify-content:center;
+    
+  
+   }
+@media  (max-width:650px) {
+    .para{
+       width: 100%;
+        margin-left:35%;
+        margin-top: 10%;
+        text-align: center;
+         
+        
+    }
+}
+
+.para p{
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    height: 27px;
+    letter-spacing: normal;
+    line-height: 25px; 
+    font-size: 27px;
+    color: #0d3f67;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+img{
+     width: 143px;
+
+height: 143px;
+
+margin-left:10%;
+
+margin-top: 3%;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+@media (max-width:640px) {
+    .photo{
+        width: 100%;
+        margin-left: 62%;
+        text-align: center;
+        margin-top:13%;
+      
+      
+    
+  }
+}
+ 
+ 
+
+
+

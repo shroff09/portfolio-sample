@@ -1,0 +1,207 @@
+  
+	 
+  .header{
+    color: #1a2849;
+    margin-top: 1%;
+    text-align: center;
+    font-family: monospace;
+    font-style: italic;
+    text-decoration: none;
+    
+  }
+
+	
+	img{
+		width: 200px;
+		height: 80px;
+	}
+	  /* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color:#ffffff;
+  border: 2px;
+  border-color: red;
+  border-bottom-color: red;
+  margin-top: 20px;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #042f4b;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 28px;
+  border: 2px;
+ 
+}
+
+/* Page content */
+.content {
+  padding: 20px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+} 
+footer{
+   position: fixed;   
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2rem;
+  background-color: #132743;
+  text-align: center;
+}
+@media only screen and (max-device-width : 1024px) {
+footer {
+width: 75%;
+position: relative;
+}
+}
+   
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#black
+}
+.social-icons a.github-square:hover
+{
+  background-color:#212121
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+@font-face {
+  font-family: "myFont";
+  src: url("myFont.woff");
+}
+ 
+
+.header{
+	font-size: 25px;
+	text-align: center;
+	 font-family:Snell Roundhand;
+	 font-style: cursive;
+}
+.photo{
+	width: 40px;
+	height:40px;
+  border-radius: 25px;
+  border-width: 2px;
+  border-color: red;
+  margin-left: 5%;
+  margin-top:2%;
+  border-width: 50px;
+            
+}
+#para{
+  float: right;
+}
+.para{
+  width:100%
+  height:20px;
+  float: left;
+  font-size: 20px;
+  margin-left:25%;
+  margin-top: 0%;
+  text-overflow: inherit;}
+
+.photo:hover{
+  width: 43px;
+  height:43px;
+  border-radius: 25px;
+  border-width: 2px;
+  border-color: red;
+  margin-left: 5%;
+  margin-top:2%;
+  opacity: 45px;
+  transition-delay: 0.2s; 
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(50%);
+  
+            
+}
+
+.first{
+   position: fixed;   
+  right: 0;
+  top : 0;
+  left: 0;
+  background-color: #132743;
+  text-align: center;
+
+
+
+
+
